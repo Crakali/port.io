@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- Created By CodingNepal -->
+<!-- Created By kalipada -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -222,9 +222,9 @@
                                 <div class="sub-title">West Midinipur , West Bengal</div>
                             </div>
                         </div>
-                        <div class="row">
-                           <i class="fab fa-github"></i>
-                            <div class="link">
+                       <div class="row">
+                             <i class="fab fa-github"></i>
+                            <div class="info">
                                 <div class="head">Github</div>
                                 <div class="sub-title">https://github.com/Crakali</div>
                             </div>
@@ -240,22 +240,24 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action="#">
+                    <form action="https://formsubmit.co/kalipada212@gmail.com" method="POST">
+                        
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="Name" required>
+                                <input type="text" placeholder="Name" required name="name">
                             </div>
                             <div class="field email">
-                                <input type="email" placeholder="Email" required>
+                                <input type="email" placeholder="Your email address" required name="email">
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" placeholder="Subject" required>
+                            <input type="text" placeholder="Subject" required name="subject">
                         </div>
                         <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                            <textarea cols="30" rows="10" placeholder="Message.." required name="message"></textarea>
                         </div>
                         <div class="button-area">
+                            <input type="hidden" name="_captcha" value="false">
                             <button type="submit">Send message</button>
                         </div>
                     </form>
